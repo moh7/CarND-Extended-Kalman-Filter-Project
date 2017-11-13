@@ -2,7 +2,7 @@
 #include <iostream>
 #include "json.hpp"
 #include <math.h>
-#include "FusionEKF.h"
+#include "Fusionekf.h"
 #include "tools.h"
 
 using namespace std;
