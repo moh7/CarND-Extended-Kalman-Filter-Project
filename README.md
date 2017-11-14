@@ -54,4 +54,12 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ![](both.png) 
 
+### Accuracy
+px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 
+The EKF accuracy was:
+
+Dataset 1 : RMSE <= [0.0954, 0.0837, 0.4499, 0.4357]
+Dataset 2 : RMSE <= [0.0744, 0.0959, 0.4588, 0.4947]
+
+which meet the project accuracy requirements.
