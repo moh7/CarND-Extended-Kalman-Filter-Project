@@ -52,6 +52,6 @@ OUTPUT: values provided by the c++ program to the simulator
   
 ## Results
 
-![](both.PNG) 
+![](./both.PNG) 
 
 
