@@ -9,14 +9,12 @@ This repository includes two files that can be used to set up and install [uWebS
 
 Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory.
 
-1. mkdir build
-2. cd build
-3. cmake ..
-4. make
-5. ./ExtendedKF
-
-Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
-
+- Clone this repo: **git clone https://github.com/moh7/CarND-Extended-Kalman-Filter-Project.git**
+- Enter into directory: **cd ~/<repository>**
+- Make build directory: **mkdir build && cd build**
+- Compile the code: **cmake .. && make**
+- Run the code: **./ExtendedKF**
+- Start and run Project 1/1 EKF and UKF of Self Driving Car Simulator
 
 
 Here is the main protcol that main.cpp uses for uWebSocketIO in communicating with the simulator.
@@ -50,17 +48,12 @@ OUTPUT: values provided by the c++ program to the simulator
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+  
+  
+## Results
 
-## How to run this program
 
-Perform the following steps.
 
-- Clone this repo: **git clone https://github.com/moh7/CarND-Extended-Kalman-Filter-Project.git**
-- Enter into directory: **cd ~/<repository>**
-- Make build directory: **mkdir build && cd build**
-- Compile the code: **cmake .. && make**
-- Run the code: **./ExtendedKF **
-- Start and run Project 1/1 EKF and UKF of Self Driving Car Simulator
 
 
 
